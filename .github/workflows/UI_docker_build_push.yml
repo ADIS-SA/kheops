@@ -2,6 +2,7 @@ name: UI Docker Image CI
 
 on:
   create:
+  workflow_dispatch:
   push:
     paths:
     - 'UI/**'
