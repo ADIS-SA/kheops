@@ -42,5 +42,5 @@ jobs:
           file: UI/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: osirixfoundation/kheops-ui:${{ env.docker_tag }}        
+          tags: redwork321/kheops-ui:${{ env.docker_tag }}        
 
